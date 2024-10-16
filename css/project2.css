@@ -1,0 +1,120 @@
+body {
+  background-image: url('/img/garage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Lilita One';
+}
+ 
+.container {
+  border-radius: 50px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  max-width: 1000px;
+  width:100%;
+  box-shadow: 0 0 10px #fcfcfc,
+0 0 20px #e8e8e8,
+0 0 40px #ffffff;
+}
+.container:hover {
+  transform: scale(1.05);
+  border-radius: 15px;
+box-shadow: 0 0 10px #fcfcfc,
+0 0 20px #e8e8e8,
+0 0 40px #014bca;
+overflow: hidden;
+
+}
+h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 10px #fcfcfc,
+  0 0 20px #e8e8e8,
+  0 0 40px #f48434;
+  overflow: hidden;
+  width: 100%;
+  padding: 50px;
+
+}
+
+.form-control:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  
+}
+.btn-primary {
+  transition: background-color 0.3s, transform 0.3s;
+  width: 100%;
+  box-shadow: 0 0 10px #fcfcfc,
+0 0 20px #e8e8e8,
+0 0 40px #f48434;
+overflow: hidden;
+
+}
+.btn-primary:hover {
+  background-color: #04001f;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px #fcfcfc,
+0 0 20px #e8e8e8,
+0 0 40px #f48434;
+overflow: hidden;
+
+}
+@media (max-width:800px){
+  .container {
+    border-radius: 50px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    max-width: 1000px;
+    width:100%;
+    box-shadow: 0 0 10px #fcfcfc,
+  0 0 20px #e8e8e8,
+  0 0 40px #ffffff;
+  font-size: 15px;
+  height: auto;
+  width: 400px;
+  }
+  .container:hover {
+    transform: scale(1.05);
+    border-radius: 15px;
+  box-shadow: 0 0 10px #fcfcfc,
+  0 0 20px #e8e8e8,
+  0 0 40px #014bca;
+  overflow: hidden;
+  width: 400px;
+  height: auto;
+  }
+}
+@media (min-width:801px) and (max-width:1000px){
+  .container {
+    border-radius: 50px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    max-width: 1000px;
+    box-shadow: 0 0 10px #fcfcfc,
+  0 0 20px #e8e8e8,
+  0 0 40px #ffffff;
+  font-size: 15px;
+  height: auto;
+  width: 500px;
+  }
+  .container:hover {
+    transform: scale(1.1);
+    border-radius: 15px;
+  box-shadow: 0 0 10px #fcfcfc,
+  0 0 20px #e8e8e8,
+  0 0 40px #014bca;
+  overflow: hidden;
+  width: 500px;
+  height: auto;
+  }
+}

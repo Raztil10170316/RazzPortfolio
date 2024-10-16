@@ -1,0 +1,581 @@
+* {
+  text-decoration: none;
+}
+
+
+.navbar {
+  background-color:rgb(7, 18, 90);
+  font-size: 30px; /* Base font size */
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+
+.section a {
+  font-size: 35px;
+  background-color:rgb(207, 204, 204);
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  margin-right: 50px;
+}
+
+
+.major {
+  color: white;
+  background-color:rgb(162, 21, 36);
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+
+.home {
+  color: white;
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+img{
+  width: 300px;
+  height: 400x;
+  position: fixed;
+  left: 850px;
+  top: 250px;
+}
+
+.ellipse {
+  width:500px; 
+  height: 300px; 
+  background-color:rgb(162, 21, 36); 
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+text-align: left;
+  font-size: 80px; 
+  color: rgb(0, 0, 0);
+  font-family: 'Lilita One';
+  position: fixed;
+  left: 250px;
+  top: 220px;
+}
+
+
+
+.fa-envelope{
+  position: fixed;
+  display: flex;
+  top: 600px;
+  left:260px ;
+  font-size: 40px;
+}
+.email{
+  position: fixed;
+  display: flex;
+  top: 570px;
+  left:320px ;
+  font-size: 40px;
+  font-family: 'Lilita One';
+}
+
+.fa-phone{
+  position: fixed;
+  display: flex;
+  top: 670px;
+  left:260px ;
+  font-size: 40px;
+
+}
+.contact{
+  position: fixed;
+  display: flex;
+  top: 645px;
+  left:320px ;
+  font-size: 40px;
+  font-family: 'Lilita One';
+}
+@media (min-width:300px)and (max-width: 375px) {
+  .navbar {
+    font-size: 15px; 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section a {
+    font-size: 15px; 
+    padding: 10px; 
+  }
+
+  .navbar li {
+    margin-right: 15px;
+    padding: 15px; 
+  }
+
+  .major {
+    padding: 15px; 
+    font-size: 15px;
+    position: fixed;
+    left:210px;
+    top: 10px;
+  }
+
+  .home {
+    font-size: 15px; 
+    margin: -20px;
+    padding: 15px;
+    position: fixed;
+    left: 150px;
+  }
+  .ellipse {
+    width: 340px;
+    height: 170px;
+    font-size: 50px;
+    top: 370px;
+    left: 20px;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  img {
+    width: 150px;
+    height: 250px;
+    left: 130px;
+    top: 100px;
+  }
+
+  .fa-envelope{
+    font-size: 25px;
+    left: 90px;
+    top: 570px;
+  }
+
+  .fa-phone{
+    font-size: 25px;
+    left: 90px;
+    top:620px ;
+
+  }
+  .email {
+    font-size: 4vw;
+    top: 600px;
+    font-family: 'Lilita One';
+    top: 562px;
+    left: 130px;
+  }
+  .contact{
+    font-size: 4vw;
+    top: 700px;
+    font-family: 'Lilita One';
+    top: 614px;
+    left: 130px;
+  }
+}
+
+
+ 
+
+@media (min-width:376px)and (max-width: 506px) {
+  .navbar {
+    font-size: 15px; 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section a {
+    font-size: 15px; 
+    padding: 10px; 
+  }
+
+  .navbar li {
+    margin-right: 15px;
+    padding: 8px; 
+  }
+
+  .major {
+    padding: 15px; 
+    font-size: 15px;
+  }
+
+  .home {
+    font-size: 15px; 
+    margin: -20px;
+    padding: 15px;
+  }
+  .ellipse {
+    width: 340px;
+    height: 170px;
+    font-size: 50px;
+    top: 370px;
+    left: 10vw;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  img {
+    width: 150px;
+    height: 250px;
+    left: 130px;
+    top: 100px;
+  }
+
+  .fa-envelope{
+    font-size: 25px;
+    left: 90px;
+    top: 570px;
+  }
+
+  .fa-phone{
+    font-size: 25px;
+    left: 90px;
+    top:620px ;
+
+  }
+  .email {
+    font-size: 4vw;
+    top: 600px;
+    font-family: 'Lilita One';
+    top: 562px;
+    left: 130px;
+  }
+  .contact{
+    font-size: 4vw;
+    top: 700px;
+    font-family: 'Lilita One';
+    top: 614px;
+    left: 130px;
+  }
+}
+
+@media (min-width: 507px) and (max-width: 600px) {
+
+  .navbar {
+    font-size: 15px; 
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .section a {
+    font-size: 18px; 
+    padding: 20px; 
+  }
+
+  .navbar li {
+    margin-right: 15px;
+    padding: 20px; 
+  }
+
+  .major {
+    padding: 20px; 
+    font-size: 18px;
+  }
+
+  .home {
+    font-size: 18px; 
+    margin: -20px;
+    padding: 15px;
+  }
+  .ellipse {
+    width: 400px;
+    height: 200px;
+    font-size: 60px;
+    top: 450px;
+    left: 10vw;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  img {
+    width: 180px;
+    height: 300px;
+    left: 150px;
+    top: 100px;
+  }
+
+  .fa-envelope{
+    font-size: 30px;
+    left: 90px;
+    top: 690px;
+  }
+
+  .fa-phone{
+    font-size: 30px;
+    left: 90px;
+    top:745px ;
+
+  }
+  .email {
+    font-size: 25px;
+    top: 600px;
+    font-family: 'Lilita One';
+    top: 675px;
+    left: 130px;
+  }
+  .contact{
+    font-size: 25px;
+    top: 700px;
+    font-family: 'Lilita One';
+    top: 735px;
+    left: 130px;
+  }
+}
+@media (min-width: 601px) and (max-width: 680px) {
+
+  .navbar {
+    font-size: 15px; 
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .section a {
+    font-size: 22px; 
+    padding: 20px; 
+  }
+
+  .navbar li {
+    margin-right: 15px;
+    padding: 25px; 
+  }
+
+  .major {
+    padding: 20px; 
+    font-size: 22px;
+  }
+
+  .home {
+    font-size: 22px; 
+    margin: -20px;
+    padding: 15px;
+  }
+  .ellipse {
+    width: 400px;
+    height: 200px;
+    font-size: 60px;
+    top: 450px;
+    left: 120px;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  img {
+    width: 180px;
+    height: 300px;
+    left: 220px;
+    top: 120px;
+  }
+
+  .fa-envelope{
+    font-size: 30px;
+    left: 100px;
+    top: 690px;
+  }
+
+  .fa-phone{
+    font-size: 30px;
+    left: 100px;
+    top:745px ;
+
+  }
+  .email {
+    font-size: 25px;
+    top: 600px;
+    font-family: 'Lilita One';
+    top: 675px;
+    left: 150px;
+  }
+  .contact{
+    font-size: 25px;
+    top: 700px;
+    font-family: 'Lilita One';
+    top: 735px;
+    left: 150px;
+  }
+}
+
+
+@media (min-width: 681px) and (max-width: 764px) {
+
+  .navbar {
+    font-size: 15px; 
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .section a {
+    font-size: 22px; 
+    padding: 20px; 
+  }
+
+  .navbar li {
+    margin-right: 15px;
+    padding: 25px; 
+  }
+
+  .major {
+    padding: 20px; 
+    font-size: 22px;
+  }
+
+  .home {
+    font-size: 22px; 
+    margin: -20px;
+    padding: 15px;
+  }
+  .ellipse {
+    width: 400px;
+    height: 200px;
+    font-size: 60px;
+    top: 450px;
+    left: 120px;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  img {
+    width: 180px;
+    height: 300px;
+    left: 220px;
+    top: 120px;
+  }
+
+  .fa-envelope{
+    font-size: 30px;
+    left: 100px;
+    top: 690px;
+  }
+
+  .fa-phone{
+    font-size: 30px;
+    left: 100px;
+    top:745px ;
+
+  }
+  .email {
+    font-size: 25px;
+    top: 600px;
+    font-family: 'Lilita One';
+    top: 675px;
+    left: 150px;
+  }
+  .contact{
+    font-size: 25px;
+    top: 700px;
+    font-family: 'Lilita One';
+    top: 735px;
+    left: 150px;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 1100px) {
+
+  .navbar {
+    font-size: 15px; 
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .section a {
+    font-size: 30px; 
+    padding: 20px; 
+  }
+
+  .navbar li {
+    margin-right: 15px;
+    padding: 40px; 
+  }
+
+  .major {
+    padding: 20px; 
+    font-size: 30px;
+  }
+
+  .home {
+    font-size: 30px; 
+    margin: -20px;
+    padding: 15px;
+  }
+  
+  img{
+    width: 250px;
+    height: 400px;
+    position: fixed;
+    left: 480px;
+    top: 300px;
+  }
+  
+  .ellipse {
+    width:330px; 
+    height: 200px; 
+    background-color:rgb(162, 21, 36); 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+  text-align: left;
+    font-size: 50px; 
+    color: rgb(0, 0, 0);
+    font-family: 'Lilita One';
+    position: fixed;
+    left: 100px;
+    top: 320px;
+  }
+  
+  
+  
+  .fa-envelope{
+    position: fixed;
+    display: flex;
+    top: 590px;
+    left:110px ;
+    font-size: 25px;
+  }
+  .email{
+    position: fixed;
+    display: flex;
+    top: 570px;
+    left:150px ;
+    font-size: 25px;
+    font-family: 'Lilita One';
+  }
+  
+  .fa-phone{
+    position: fixed;
+    display: flex;
+    top: 662px;
+    left:110px ;
+    font-size: 25px;
+  
+  }
+  .contact{
+    position: fixed;
+    display: flex;
+    top: 645px;
+    left:150px ;
+    font-size: 25px;
+    font-family: 'Lilita One';
+  }
+  
+   
+}
+
+
+

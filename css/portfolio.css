@@ -1,0 +1,234 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  background-color: #100900;
+    color: #000000;
+    scroll-behavior: smooth;
+    transition: background-color 1s ease;
+    padding: 0;
+    margin: 20px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px #fcfcfc,
+    0 0 20px #e8e8e8,
+    0 0 40px #f48434;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.navbar {
+    background-color: #191313;
+    transition: background-color 0.3s ease;
+    padding: 15px;
+}
+
+
+.nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.welcome{
+    font-size: 40px;
+}
+
+.nav-link:hover {
+    background-color: #1c1c1c;
+    color: #ffdd57;
+}
+
+.hero {
+    height: 80vh;
+    background: url('/img/background.webp') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffdd57;
+    position: relative;
+    transition: 0.5s ease;
+font-size: 30px;
+    
+}
+
+    
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease;
+}
+
+.hero-content {
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.hero-content:hover {
+    transform: scale(1.05);
+    
+ 
+}
+
+.btn-primary {
+    background-color: #000000;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    transform: translateY(-3px);
+    color: #ffdd57;
+    box-shadow: 0 0 10px #fcfcfc,
+    0 0 20px #e8e8e8,
+    0 0 50px #fb9f00;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.bg-light-custom {
+    background-color: #f7f9fc;
+    transition: background-color 0.3s ease;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #805808;
+    border-radius: 20px;
+
+    
+
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 8px 16px rgba(241, 142, 2, 0.763);
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.footer a {
+    color: #ffdd57;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.skill {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.icon {
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+
+.progress {
+    height: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    transition: 0.3s ease;
+    
+}
+
+.progress-bar {
+    transition: 0.3s ease, 0.3s ease;
+}
+
+.progress-bar:hover {
+    background-color: #000000;
+}
+
+
+.project-img {
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px #fdfdfd,
+    0 0 20px #000000;
+border-radius: 20px;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #fcfcfc,
+    0 0 20px #e8e8e8,
+    0 0 40px #f48434;
+    overflow: hidden;
+    border-radius: 20px;
+  
+  
+  }
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.about-img {
+    box-shadow: 0 0 10px #fcfcfc,
+    0 0 20px #e8e8e8;
+    height: 300px;
+    width: 300px;
+}
+.about-img:hover{
+    box-shadow: 0 0 10px #fcfcfc,
+    0 0 20px #e8e8e8,
+    0 0 40px #f48434;
+    overflow: hidden;
+}
+
+.text:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 0 10px #fcfcfc,
+    0 0 20px #e8e8e8,
+    0 0 40px #f48434;
+    overflow: hidden;
+    color: #ffdd57;
+}
+
+#about{
+    color: white;
+}
+.about{
+    color: #ffdd57;
+}
+
+.projects{
+    color: #ffdd57;
+
+}
