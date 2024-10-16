@@ -1,7 +1,6 @@
 body {
  background-image:url(../img/project1bg.jpg);
-
-  background-size: cover;
+ background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 100vh;
